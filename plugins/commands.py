@@ -35,7 +35,7 @@ async def start(client, message):
         buttons = [[
             
             ],[
-            InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("Developer 🧑‍🎓", url="https://t.me/Cinemacollectionadmin"), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Cinemacollectionsgroup")
             ],[      
            
