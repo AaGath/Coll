@@ -35,8 +35,10 @@ async def start(client, message):
         buttons = [[
             
             ],[
-            InlineKeyboardButton("Developer 🧑‍🎓", url="https://t.me/Cinemacollectionadmin"), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Cinemacollectionsgroup")
+            InlineKeyboardButton("Search 🔎", switch_inline_query_current_chat=''),
+            InlineKeyboardButton("Developer 🧑‍🎓", url="https://t.me/Cinemacollectionadmin")
+            ],[
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url="https://t.me/Cinemacollectionsgroup")
             ],[      
            
             
